@@ -54,7 +54,12 @@ class employee:public company, public department
              cout<<"enter info: "<<endl;
              cin>>eno>>ename;
          }
-
+void put()
+         {  output();
+            putdata();
+             cout<<"employee number: "<<eno<<endl;
+             cout<<"employee name: "<<ename<<endl;
+         }
          
 };
 
