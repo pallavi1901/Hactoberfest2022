@@ -39,14 +39,5 @@ int main()
     cout<<"enter how many students info you want to print: "<<endl;
     cin>>n;
     
-    student obj [Max];
-    for(i=1; i<=n; i++)
-    {
-        obj[i].input();
-    }
-    for(i=1; i<=n; i++)
-    {
-        obj[i].print();
-    }
-    return 0;
+    
 }
