@@ -22,10 +22,10 @@ int getPivot (int *nums, int n)
 }
 
   int main ()
-  {
-      int nums[2] = {3,1};
+  {     
+      int nums[5] = {3,4,5,1,2};
       
-    cout << getPivot(nums, 2);
+      cout << getPivot(nums, 5);
 
     return 0;
   }
