@@ -41,22 +41,7 @@ void number :: display()
         cout<<"0 1\n";
     }
 
-    else
-    {
-        int a = 0;
-        int b = 1;
-        cout<<a<<" "<<b<<" ";
-        
-        int curr_f = 0;
 
-        for(int i=3; i<=n; i++)
-        {
-            curr_f = a+b;
-            cout<<curr_f<<" ";
-            a = b;
-            b = curr_f;
-        }
-    }
 }
 int main()
 {
