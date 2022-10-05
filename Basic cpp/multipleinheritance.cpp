@@ -55,30 +55,11 @@ class employee:public company, public department
              cin>>eno>>ename;
          }
 
-         void put()
-         {  output();
-            putdata();
-             cout<<"employee number: "<<eno<<endl;
-             cout<<"employee name: "<<ename<<endl;
-         }
+         
 };
 
 int main()
 {
-// {    int ch;
-//      cout<<"enter how many objects you want: "<<endl;
-//      cin>>ch;
-
-//     employee obj[max];
-//     for(int i=1; i<=ch; i++)
-//     {
-//         obj[i].input();
-//         obj[i].output();
-//         obj[i].getdata();
-//         obj[i].putdata();
-//         obj[i].get();
-//         obj[i].put();    
-//     }
     employee obj;
     obj.get();
     obj.put();   
